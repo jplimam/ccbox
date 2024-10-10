@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #231942;
+    --secundary-color: #5E548E;
+    --pink-color: #BE95C4;
+    --white-color: #FFFFFF;
+    --white-color-64op: rgba(255, 255, 255, 0.64);
+    --white-color-75op: rgba(255, 255, 255, 0.75);
+    --white-color-50op: rgba(255, 255, 255, 0.50);
+    --main-font: "graphie", sans-serif;
+    --title-font: "Montagu Slab", serif;
+}

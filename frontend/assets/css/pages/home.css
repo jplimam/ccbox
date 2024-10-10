@@ -1,0 +1,99 @@
+@import url(../global.css);
+@import url(../components/header.css);
+@import url(../components/footer.css);
+
+main {
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+
+    padding-top: 317px;
+
+    h1 {
+        position: relative;
+        z-index: 1;
+        color: var(--white-color);
+        text-align: center;
+        font-size: 32px;
+        font-family: var(--title-font);
+    }
+
+    .container__image {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+
+        -webkit-mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
+        mask-image: radial-gradient(#000, rgba(0, 0, 0, 0));
+
+        .container__image__enhance {
+            -webkit-mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
+            mask-image: radial-gradient(#000, rgba(0, 0, 0, 0));
+
+            .container__image__enhance2 {
+                -webkit-mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
+                mask-image: radial-gradient(#000, rgba(0, 0, 0, 0));
+            }
+        }
+    }
+
+    .signup__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 317px;
+        height: 44px;
+
+
+        background-color: var(--pink-color);
+        border-radius: 6px;
+        cursor: pointer;
+
+        a {
+            color: var(--white-color);
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+
+    .signup__button:hover {
+        background-color: var(--secundary-color);
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        color: var(--white-color-64op);
+    }
+}
+
+.animes__section {
+    margin-top: 56px;
+
+    .section__content {
+        display: flex;
+        flex-direction: column;
+
+        width: 750px;
+        height: 270px;
+
+        h2 {
+            font-size: 20px;
+            font-weight: 400;
+            color: var(--white-color-64op);
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .animes__list {
+            display: flex;
+            justify-content: center;
+            gap: 35px;
+        }
+    }
+}
+
+.mangas__section {
+    margin-top: 47px;
+}
