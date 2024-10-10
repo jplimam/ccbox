@@ -25,3 +25,8 @@ header {
         }
     }
 }
+
+header:hover {
+    -webkit-mask-image: radial-gradient(#000, rgba(0, 0, 0, 0));
+        mask-image: radial-gradient(#000, rgba(0, 0, 0, 0));
+}
